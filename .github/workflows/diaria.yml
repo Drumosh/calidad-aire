@@ -2,7 +2,7 @@ name: Captura diaria calidad del aire
 
 on:
   schedule:
-    - cron: "30 23 * * *"
+    - cron: "00 13 * * *"
   workflow_dispatch:
 
 jobs:
